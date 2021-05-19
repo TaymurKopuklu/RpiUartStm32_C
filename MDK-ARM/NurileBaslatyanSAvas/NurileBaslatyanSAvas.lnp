@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"nurilebaslatyansavas\startup_stm32f429xx.o"
+"nurilebaslatyansavas\main.o"
+"nurilebaslatyansavas\stm32f4xx_it.o"
+"nurilebaslatyansavas\stm32f4xx_hal_msp.o"
+"nurilebaslatyansavas\stm32f4xx_hal_i2c.o"
+"nurilebaslatyansavas\stm32f4xx_hal_i2c_ex.o"
+"nurilebaslatyansavas\stm32f4xx_hal_rcc.o"
+"nurilebaslatyansavas\stm32f4xx_hal_rcc_ex.o"
+"nurilebaslatyansavas\stm32f4xx_hal_flash.o"
+"nurilebaslatyansavas\stm32f4xx_hal_flash_ex.o"
+"nurilebaslatyansavas\stm32f4xx_hal_flash_ramfunc.o"
+"nurilebaslatyansavas\stm32f4xx_hal_gpio.o"
+"nurilebaslatyansavas\stm32f4xx_hal_dma_ex.o"
+"nurilebaslatyansavas\stm32f4xx_hal_dma.o"
+"nurilebaslatyansavas\stm32f4xx_hal_pwr.o"
+"nurilebaslatyansavas\stm32f4xx_hal_pwr_ex.o"
+"nurilebaslatyansavas\stm32f4xx_hal_cortex.o"
+"nurilebaslatyansavas\stm32f4xx_hal.o"
+"nurilebaslatyansavas\stm32f4xx_hal_exti.o"
+"nurilebaslatyansavas\stm32f4xx_hal_tim.o"
+"nurilebaslatyansavas\stm32f4xx_hal_tim_ex.o"
+"nurilebaslatyansavas\stm32f4xx_hal_uart.o"
+"nurilebaslatyansavas\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "NurileBaslatyanSAvas\NurileBaslatyanSAvas.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NurileBaslatyanSAvas.map" -o NurileBaslatyanSAvas\NurileBaslatyanSAvas.axf
